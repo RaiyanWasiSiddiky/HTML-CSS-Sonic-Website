@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><!--doesnt appear on page-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--CSS-->
+    <link rel="stylesheet" href="styles.css">
+    <!--Page Tab Header-->
+    <title>Learning HTML</title>
+</head>
+
+<body>
+    <h1>Forms and inputs</h1>
+
+    <form action="">
+        <label for="username">Enter Username</label>
+        <input type="text" name="username" id="username" required>
+        <br><br>
+        <label for="email">Enter Email</label>
+        <input type="text" name="email" id="email" required>
+        <br><br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password" required> 
+        <br><br>
+        <h3>Select your gender:</h3>
+
+        <!--Must add value to radio inputs-->
+        <label for="gender1">Male</label>
+        <input type="radio" name="gender" id="gender1" value="male">
+        <label for="gender2">Female</label>
+        <input type="radio" name="gender" id="gender2" value="female">
+        <label for="gender3">Other</label>
+        <input type="radio" name="gender" id="gender3" value="other">
+
+        <br><br>
+        <label for="question">Security Question:</label>
+        <select name="question" id="question">
+            <option value="q1">What is your favorite color?</option>
+            <option value="q2">If you could be a vegetable what would you be?</option>
+        </select>
+
+        <br><br>
+        <label for="answer">Securtiy Answer</label>
+        <input type="text" name="answer" id="answer">
+
+        <br><br>
+        <label for="bio">Your bio</label><br>
+        <textarea name="bio" id="bio" cols="30" rows="10" placeholder="enter your bio..."></textarea>
+
+        <br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+
+</body>
+</html>
